@@ -65,9 +65,8 @@ const assignUniqueIDs = () => {
 
     const values = Array.from(previews).map(preview => {
       const index = preview.id.replace('preview', '');
-      return (preview.src === 'https://www.thevintagecarmarket.com/app/new-listing' || preview.src === 'https://assets-global.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg') ? '' : preview.src || '';
-    }).join('|');
-
+      return (preview.src === 'https://www.thevintagecarmarket.com/app/new-listing' || preview.src === 'https://assets-global.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg') ? '' : preview.src + '-/setfill/ece3d2/-/format/webp/-/resize/1800x/' || '';
+    }).join('|'
     input.value = values;
   };
 
