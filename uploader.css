@@ -1199,9 +1199,9 @@ lr-upload-list .no-files {
 lr-upload-list .files {
     display: block;
     flex: 1;
-    min-height: 420px;
+    min-height: var(--ui-size);
     padding: 0 var(--gap-mid);
-    overflow: scroll;
+    overflow: auto
 }
 
 lr-upload-list .toolbar {
