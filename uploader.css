@@ -744,7 +744,8 @@ lr-drop-area,lr-drop-area .content-wrapper {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%
+    height: 100%;
+    z-index: -1;
 }
 
 lr-drop-area .text {
@@ -878,7 +879,7 @@ lr-drop-area[fullscreen] .content-wrapper {
 
 lr-drop-area[with-icon][fullscreen][drag-state=active]>.content-wrapper,lr-drop-area[with-icon][fullscreen][drag-state=near]>.content-wrapper {
     transform: translateY(var(--gap-mid));
-    opacity: 1;
+    opacity: 1
     display: none;
 }
 
