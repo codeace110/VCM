@@ -745,7 +745,7 @@ lr-drop-area,lr-drop-area .content-wrapper {
     justify-content: center;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    
 }
 
 lr-drop-area .text {
@@ -1221,9 +1221,7 @@ lr-upload-list .toolbar-spacer {
 }
 
 lr-upload-list lr-drop-area {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     width: calc(100% - var(--gap-mid) * 2);
     height: calc(100% - var(--gap-mid) * 2);
     margin: var(--gap-mid);
