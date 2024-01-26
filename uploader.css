@@ -739,7 +739,13 @@ lr-drop-area {
     transition: var(--transition-duration) ease
 }
 
-
+lr-drop-area,lr-drop-area .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%
+}
 
 lr-drop-area .text {
     position: relative;
