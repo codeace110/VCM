@@ -1,5 +1,5 @@
 :where(.lr-wgt-cfg,.lr-wgt-common),:host {
-    --cfg-pubkey: "YOUR_PUBLIC_KEY";
+    --cfg-pubkey: "987879f92f7a91f09ab3";
     --cfg-multiple: 1;
     --cfg-multiple-min: 0;
     --cfg-multiple-max: 0;
