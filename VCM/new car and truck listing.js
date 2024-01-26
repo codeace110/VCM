@@ -243,3 +243,27 @@ const assignUniqueIDs = () => {
     about.value = quill.root.textContent;
     console.log("Submitted", $(form).serialize(), $(form).serializeArray());
   };
+
+
+
+
+
+  <script>UPLOADCARE_PUBLIC_KEY = '987879f92f7a91f09ab3';</script>
+<script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" data-integration="Webflow"></script>
+
+<script type="module">
+    import * as LR from "https://cdn.jsdelivr.net/npm/@uploadcare/blocks@0.25.0/web/lr-file-uploader-inline.min.js";
+
+    LR.registerBlocks(LR);
+</script>
+
+
+<lr-config
+    ctx-name="my-new-listing-photos"
+    pubkey="987879f92f7a91f09ab3"
+    max-local-file-size-bytes="100000000"
+    multiple-max="15"
+    img-only="true"
+    source-list="local, url, camera, facebook, instagram"
+	data-image-shrink="1000x1000"
+></lr-config>
